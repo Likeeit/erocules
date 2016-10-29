@@ -28,6 +28,8 @@ OnAgitStart:
 	end;
 }
 
+poring_w02,99,101,4	duplicate(WOE Information)	WOE Info#poring_w02	2_BOARD1
+
 // Script Core
 //============================================================
 -	script	WOE_CONTROL	FAKE_NPC,{

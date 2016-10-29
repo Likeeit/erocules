@@ -29,10 +29,10 @@ menu	"Last Warp ^777777["+lastwarp$+"]^000000",-,
 		" ~ Towns",Towns,
 		" ~ Fields",Fields,
 		" ~ Dungeons",Dungeons,
-		" ~ Guild Castles",Castles,
-		" ~ Guild Dungeons",Guild_Dungeons,
+		" ~ Special Areas",Special,
 		" ~ Instances",Instances,
-		" ~ Special Areas",Special;
+		" ~ Guild Castles",Castles,
+		" ~ Guild Dungeons",Guild_Dungeons;
 
 	if (lastwarp$ == "")
 		message strcharinfo(PC_NAME),"You haven't warped anywhere yet.";
@@ -419,6 +419,22 @@ G4: Restrict("RE",2,3);
 G5: Go("arug_dun01",199,195);
 G6: Go("schg_dun01",200,124);
 
+
+// --------------------------------------------------
+	Instances:
+// --------------------------------------------------
+menu	"Endless Tower",I4, "Nidhoggur's Nest",I7,
+		"Orc's Memory",I10, "Sealed Shrine",I11;
+
+
+
+I4: Go("e_tower",72,112);
+I7: Go("nyd_dun02",95,193);
+I10: Go("gef_fild10",240,198);
+I11: Go("monk_test",306,143);
+
+
+/*
 // --------------------------------------------------
 	Instances:
 // --------------------------------------------------
@@ -447,7 +463,8 @@ I10: Go("gef_fild10",240,198);
 I11: Go("monk_test",306,143);
 I12: Restrict("RE");
 	Go("lhz_dun04",148,269);
-
+*/
+/*
 // --------------------------------------------------
 	Special:
 // --------------------------------------------------
@@ -463,6 +480,23 @@ S5: Go("gon_test",48,10);
 S6: Go("arena_room",100,88);
 S7: Go("p_track01",62,41);
 S8: Go("turbo_room",99,114);
+}
+*/
+// --------------------CUSTOMIZED------------------------------
+	Special:
+// --------------------------------------------------
+menu	"Poring Market",S1, "Askydun",S2, "Auction Hall",S3, "Battlegrounds",S4, "Casino",S5,
+		"Gonryun Arena",S6, "Izlude Arena",S7, "Monster Race Arena",S8, "Turbo Track",S9;
+		
+S1: Go("poring_w02",99,75);
+S2: Go("Askydun",22,68);
+S3: Go("auction_01",22,68);
+S4: Go("bat_room",154,150);
+S5: Go("cmd_in02",179,129);
+S6: Go("gon_test",48,10);
+S7: Go("arena_room",100,88);
+S8: Go("p_track01",62,41);
+S9: Go("turbo_room",99,114);
 }
 
 // --------------------------------------------------
@@ -505,6 +539,7 @@ umbala,106,150,3	duplicate(Warper)	Warper#umb	4_F_VALKYRIE
 veins,214,123,4	duplicate(Warper)	Warper#ve	4_F_VALKYRIE
 xmas,150,136,6	duplicate(Warper)	Warper#xmas	4_F_VALKYRIE
 yuno,162,47,4	duplicate(Warper)	Warper#yuno	4_F_VALKYRIE
+poring_w02,112,89,4	duplicate(Warper)	Warper#poring_w02	4_F_VALKYRIE
 
 // --------------------------------------------------
 //	Duplicates (Renewal):

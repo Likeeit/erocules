@@ -55,6 +55,11 @@ prontera,124,201,1	script	Universal Rental NPC	4_F_JOB_BLACKSMITH,{
 	end;
 }
 
+//==========Breeder==================
+poring_w02,112,77,4	duplicate(Universal Rental NPC)	Rental NPC#poring_w02	4_F_JOB_BLACKSMITH
+
+
+
 //============================================================
 // Old changelog
 //============================================================

@@ -24,6 +24,8 @@ prontera,154,197,3	script	MVP Warper	8_M_JPNMASTER,{
 	close;
 }
 
+poring_w02,89,101,4	duplicate(MVP Warper)	MVP Warper#poring_w02	8_M_JPNMASTER
+
 // Information
 quiz_00,49,31,4	script	MVP Arena Guide	4_M_TWTEAMAN,{
 	mes "[ ^0065DFMVP Arena Guide^000000 ]";

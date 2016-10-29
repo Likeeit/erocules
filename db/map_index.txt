@@ -1007,3 +1007,5 @@ c_tower3_
 //
 //mymap	1250
 //mymap-2
+Askydun 1250
+coliseum 1251

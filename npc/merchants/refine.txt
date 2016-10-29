@@ -1161,6 +1161,11 @@ sch_gld,340,80,7	script	Repairman#sch_gld	4_M_04,{
 	end;
 }
 
+poring_w02,96,127,4	script	Repairman#poring_w02	4_M_04,{
+	callfunc "repairmain","Repairman";
+	end;
+}
+
 //== Equipment Repair Function =============================
 function	script	repairmain	{
 	.@repairprice = 5000;

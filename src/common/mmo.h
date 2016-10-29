@@ -126,7 +126,7 @@
 #define MAX_BANK_ZENY INT_MAX
 
 #ifndef MAX_LEVEL
-#define MAX_LEVEL 175
+#define MAX_LEVEL 265
 #endif
 #define MAX_FAME 1000000000
 #define MAX_CART 100

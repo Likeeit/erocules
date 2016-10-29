@@ -64,3 +64,5 @@ prontera,150,193,4	script	Reset Girl	4_F_TELEPORTER,{
 		close;
 	}
 }
+
+poring_w02,76,89,4	duplicate(Reset Girl)	Reset Girl#poring_w02	4_F_TELEPORTER
