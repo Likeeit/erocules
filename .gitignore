@@ -61,11 +61,6 @@ Thumbs.db
 # /conf/
 /conf/import/*.conf
 /conf/import/msg_conf.txt
-/conf/map/map-server.conf
-/conf/login/login-server.conf
-/conf/common/*.conf
-/conf/char/char-server.conf
-/conf/global/*.conf
 
 
 # /log/
@@ -120,3 +115,7 @@ Thumbs.db
 /vcproj-*/map-server
 /vcproj-*/mapcache
 /vcproj-*/plugin-*/
+conf/char/char-server.conf
+conf/global/sql_connection.conf
+conf/map/map-server.conf
+conf/network.conf
