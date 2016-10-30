@@ -61,6 +61,12 @@ Thumbs.db
 # /conf/
 /conf/import/*.conf
 /conf/import/msg_conf.txt
+/conf/map/map-server.conf
+/conf/login/login-server.conf
+/conf/common/*.conf
+/conf/char/char-server.conf
+/conf/global/*.conf
+
 
 # /log/
 /log/*.log
