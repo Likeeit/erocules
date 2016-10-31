@@ -72,7 +72,7 @@ lou_dun02,161,264,4	script	Dragon Hunter	4_M_JOB_HUNTER,{
 		erasequest 60182;
 		close;
 	}
-	if ((BaseLevel > 49) && (BaseLevel < 91)) {
+	if ((BaseLevel > 49) && (BaseLevel < 256)) {
 		mes "[Dragon Hunter]";
 		mes "Oh great!";
 		mes "You are here to help me right?";
@@ -90,7 +90,7 @@ lou_dun02,161,264,4	script	Dragon Hunter	4_M_JOB_HUNTER,{
 			next;
 			switch(select("Sure", "Cancel")) {
 			case 1:
-				if (BaseLevel > 90) {
+				if (BaseLevel > 256) {
 					mes "[Dragon Hunter]";
 					mes "Thank you for your great help with the Zhu Po Long!";
 					mes "Currently the Situation is stable and i'm not in need of your help anymore to kill them.";
