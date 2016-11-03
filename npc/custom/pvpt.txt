@@ -109,7 +109,6 @@ guild_vs4	mapflag	pvp
 guild_vs1-2	mapflag	pvp
  
 guild_vs3	mapflag	pvp
-guild_vs1	mapflag	pvp
 pvp_y_8-2	mapflag	pvp
 1@orcs	mapflag	pvp
 
