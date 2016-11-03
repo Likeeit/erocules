@@ -101,6 +101,6 @@ end;
 				
 OnInit:
 set .GMLevel,80;
-set .Map$,"guild_vs1";
+set .Map$,"guild_vs2";
 end;
 }
