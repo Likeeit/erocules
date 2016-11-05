@@ -26,7 +26,7 @@ OnInit:
 	hideonnpc "Dice#evnt1";
 	end;
 
-Onclock0200:
+OnClock0200:
 OnClock0600:
 OnClock1000:
 OnClock1400:

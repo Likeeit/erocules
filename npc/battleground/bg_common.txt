@@ -385,7 +385,7 @@ bat_room,1,151,3	script	Switch#batgnd	4_DOG01,{
 		close;
 	}
 }
-
+/*
 //== Badges Exchange =======================================
 bat_room,160,150,3	script	Erundek	4_M_MANAGER,{
 	if (checkweight(Knife,1) == 0) {
@@ -576,3 +576,4 @@ bat_room,160,150,3	script	Erundek	4_M_MANAGER,{
 	}
 	close;
 }
+*/

@@ -50,7 +50,7 @@ OnClock2030: // everyday 8:30pm ends
 	enablenpc "Exit#KoE";
 	disablenpc "The King#KoE";
 	killmonster "guild_vs1", "KoE::OnEmpDead";
-//	maprespawnguildid "guild_vs1", $koegid, 2; // uncomment this line to kick non-owner off the map when event ends
+	maprespawnguildid "guild_vs1", $koegid, 2; // uncomment this line to kick non-owner off the map when event ends
 	end;
 OnEmpDead:
 	$koegid = getcharid(2);
